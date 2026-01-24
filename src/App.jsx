@@ -356,6 +356,36 @@ What began as a small initiative has, over the past nine years, grown into a mov
           </div>
         </div>
       </section>
+        {/* Impact Section */}
+      <section className="impact-section">
+        <h2>Our Impact</h2>
+        <div className="impact-counters">
+          <div className="counter">
+            <div className="counter-value">
+              <AnimatedCounter target={3500} duration={4000} />+
+            </div>
+            <p>Units of Blood Donated</p>
+          </div>
+          <div className="counter">
+            <div className="counter-value">
+              <AnimatedCounter target={1200} duration={4000} />+
+            </div>
+            <p>Food Drives Conducted</p>
+          </div>
+          <div className="counter">
+            <div className="counter-value">
+              <AnimatedCounter target={250} duration={4000} />+
+            </div>
+            <p>Awareness Camps Held</p>
+          </div>
+          <div className="counter">
+            <div className="counter-value">
+              <AnimatedCounter target={280} duration={4000} />+
+            </div>
+            <p>Medical Cases Supported</p>
+          </div>
+        </div>
+      </section>
 
       {/* Recognitions Section */}
       <section className="recognitions-section">
@@ -455,36 +485,7 @@ What began as a small initiative has, over the past nine years, grown into a mov
         </div>
       </section>
 
-      {/* Impact Section */}
-      <section className="impact-section">
-        <h2>Our Impact</h2>
-        <div className="impact-counters">
-          <div className="counter">
-            <div className="counter-value">
-              <AnimatedCounter target={3500} duration={4000} />+
-            </div>
-            <p>Units of Blood Donated</p>
-          </div>
-          <div className="counter">
-            <div className="counter-value">
-              <AnimatedCounter target={1200} duration={4000} />+
-            </div>
-            <p>Food Drives Conducted</p>
-          </div>
-          <div className="counter">
-            <div className="counter-value">
-              <AnimatedCounter target={250} duration={4000} />+
-            </div>
-            <p>Awareness Camps Held</p>
-          </div>
-          <div className="counter">
-            <div className="counter-value">
-              <AnimatedCounter target={280} duration={4000} />+
-            </div>
-            <p>Medical Cases Supported</p>
-          </div>
-        </div>
-      </section>
+    
 
       {/* Volunteer Form Section */}
       <section className="volunteer-section" id="join-us-form">
