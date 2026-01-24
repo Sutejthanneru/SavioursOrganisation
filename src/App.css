@@ -350,10 +350,14 @@
 
 .impact-section h2 {
   font-size: 2.5rem;
-  color: var(--color-text-main);
+  color: rgb(200, 173, 17);
   margin-bottom: 4rem;
 }
-
+.ourteam-section img{
+  margin-left: 425px;
+  width: 600px;
+  height: 400px;
+}
 .impact-counters {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -550,6 +554,31 @@
     gap: 3rem 2rem;
   }
 }
+.ourteam-section img {
+ 
+  border-radius: 16px;
+
+  /* Thick border illusion */
+  padding: 8px;
+  background:
+    linear-gradient(#0b0b0b, #0b0b0b) padding-box,
+    linear-gradient(
+      135deg,
+      rgba(255, 215, 100, 0.9),
+      rgba(255, 215, 100, 0.5),
+      rgba(255, 215, 100, 0.15),
+      rgba(255, 215, 100, 0.6),
+      rgba(255, 215, 100, 0.9)
+    ) border-box;
+
+  border: 4px solid transparent;
+
+  /* Soft glow */
+  box-shadow:
+    0 0 25px rgba(255, 215, 100, 0.35),
+    0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
 
 @media (max-width: 600px) {
   .footer-content {
@@ -558,7 +587,9 @@
     gap: 2.5rem;
     text-align: center;
   }
-
+  .ourteam-section img{
+    margin: 0px;
+  }
   .footer-logo-container {
     justify-content: center;
   }
@@ -814,6 +845,30 @@
   font-size: 0.8rem;
   z-index: 0;
 }
+.awards-summary {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.award-stat h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: rgb(200, 173, 17);
+  margin-bottom: 0.5rem;
+}
+
+.award-stat p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.5px;
+}
+
 
 @media (max-width: 900px) {
   .recognitions-grid {

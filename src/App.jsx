@@ -218,6 +218,14 @@ What began as a small initiative has, over the past nine years, grown into a mov
           </div>
         </div>
       </section>
+       <section className="founder-section ourteam-section">
+        <h2 className="section-title">Our Team</h2>
+       
+        <div className="team-image-crop">
+    <img src="/ourteam.png" alt="Our Team" />
+  </div>
+    
+      </section>
 
       {/* Wings Section */}
       {/* Wings Section */}
@@ -483,6 +491,27 @@ What began as a small initiative has, over the past nine years, grown into a mov
             </div>
           </div>
         </div>
+        <div className="awards-summary">
+  <div className="award-stat">
+    <h3>3+</h3>
+    <p>National Awards</p>
+  </div>
+
+  <div className="award-stat">
+    <h3>5+</h3>
+    <p>State Level Awards</p>
+  </div>
+
+  <div className="award-stat">
+    <h3>10+</h3>
+    <p>District Level Awards</p>
+  </div>
+
+  <div className="award-stat">
+    <h3>50+</h3>
+    <p>Town Level Awards</p>
+  </div>
+</div>
       </section>
 
     
