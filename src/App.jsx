@@ -69,11 +69,15 @@ function Carousel({ images }) {
 
 function App() {
   const awarenessImages = [
-    "/Awareness/a0.jpg",
+    "/Awareness/a20.jpeg",
     "/Awareness/a1.jpg",
+    "/Awareness/a18.jpeg",
     "/Awareness/a2.jpg",
+    "/Awareness/a19.jpeg",
     "/Awareness/a02.jpg",
+    "/Awareness/a17.jpeg",
     "/Awareness/a3.jpg",
+    "/Awareness/a16.jpeg",
     "/Awareness/a4.jpg",
     "/Awareness/a6.jpg",
     "/Awareness/a7.jpg",
@@ -104,6 +108,14 @@ function App() {
     "/Blood/blood2.jpeg",
   ];
   const foodImages = [
+    "/Food/food.jpeg",
+    "/Food/food1.jpeg",
+    "/Food/food2.jpeg",
+    "/Food/food3.jpeg",
+    "/Food/food4.jpeg",
+    "/Food/food5.jpeg",
+    "/Food/food6.jpeg",
+    "/Food/food15.jpeg",
     "/Food/f00.jpg",
     "/Food/f1.jpg",
     "/Food/f001.jpg",
@@ -116,13 +128,7 @@ function App() {
     "/Food/f9.jpg",
     "/Food/f10.jpg",
     "/Food/f11.jpg",
-    "/Food/food.jpeg",
-    "/Food/food1.jpeg",
-    "/Food/food2.jpeg",
-    "/Food/food3.jpeg",
-    "/Food/food4.jpeg",
-    "/Food/food5.jpeg",
-    "/Food/food6.jpeg",
+    
   ];
   const medicalImages = [
     "/Medical/m1.jpg",
@@ -369,7 +375,7 @@ function App() {
           {/* Card 1 */}
           <div className="recognition-card">
             <div className="recog-content">
-              <span className="recog-year">🏆 State-Level Award</span>
+              <span className="recog-year">🏆2025 </span>
               <h3>Indian Red Cross Society Recognition</h3>
               <p>
                 Saviours Voluntary Organization President Mr. N. Praneeth
@@ -380,13 +386,13 @@ function App() {
             </div>
 
             <div className="recog-image">
-              <div className="recog-placeholder">
+             
                 <img
                   src="/rec1.jpeg"
                   alt="Saviours State-Level Award"
-                  onError={(e) => (e.target.style.display = "none")}
+                 
                 />
-              </div>
+             
             </div>
           </div>
 
@@ -405,9 +411,9 @@ function App() {
             </div>
 
             <div className="recog-image">
-              <div className="recog-placeholder">
+             
                 <img src="/rec2.jpeg" alt="AP Governor Award 2022" />
-              </div>
+            
             </div>
           </div>
 
@@ -426,12 +432,12 @@ function App() {
             </div>
 
             <div className="recog-image">
-              <div className="recog-placeholder">
+             
                 <img
                   src="/rec3.jpeg"
                   alt="National Award Human Rights Council 2025"
                 />
-              </div>
+           
             </div>
           </div>
 
