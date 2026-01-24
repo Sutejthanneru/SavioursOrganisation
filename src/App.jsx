@@ -200,15 +200,9 @@ function App() {
         <div className="founder-content">
           <div className="founder-text">
             <p>
-              N. Praneeth, the founder of Saviours Voluntary Organization in
-              Kavali. I started this organization at the age of 18 on August
-              15th, 2018. Our main motive is that everyone should embrace social
-              responsibility, and alongside our own lives, we should stand by
-              those in need, offering them support and encouragement. This small
-              initiative has now grown over the past nine years into more than
-              2,000 service programs. I am truly grateful to our team members,
-              our supporters, and our volunteers who have helped us move
-              forward, and I am deeply thankful to each and every one of them.
+            I am N. Praneeth, the founder of Saviours Voluntary Organization, based in Kavali. I started this organization at the age of 18 on August 15, 2018, with a simple yet powerful vision—to inspire social responsibility and encourage people to stand by those in need while leading their own lives with purpose.
+
+What began as a small initiative has, over the past nine years, grown into a movement that has carried out more than 2,000 service programs. This journey would not have been possible without the dedication of our team members, the unwavering support of our well-wishers, and the tireless efforts of our volunteers. I am sincerely grateful to each and every one of them for helping us move forward and make a difference in countless lives.
             </p>
             <p>
               <span className="gold-quote">“</span>
