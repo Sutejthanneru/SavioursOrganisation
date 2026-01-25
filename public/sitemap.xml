@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://teamsaviours.in/</loc>
+    <loc>https://www.teamsaviours.in/</loc>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://teamsaviours.in/about</loc>
+    <loc>https://www.teamsaviours.in/about</loc>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://teamsaviours.in/activities</loc>
+    <loc>https://www.teamsaviours.in/activities</loc>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://teamsaviours.in/recognitions</loc>
+    <loc>https://www.teamsaviours.in/recognitions</loc>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://teamsaviours.in/contact</loc>
+    <loc>https://www.teamsaviours.in/contact</loc>
     <priority>0.70</priority>
   </url>
+
 </urlset>

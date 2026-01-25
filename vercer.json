@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "teamsaviours.in"
+        }
+      ],
+      "destination": "https://www.teamsaviours.in/$1",
+      "permanent": true
+    }
+  ]
+}
