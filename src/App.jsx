@@ -68,6 +68,10 @@ function Carousel({ images }) {
 }
 
 function App() {
+    useEffect(() => {
+    document.title =
+      "Saviours Voluntary Organisation | Team Saviours | Social Service NGO";
+  }, []);
   const awarenessImages = [
     "/Awareness/a20.jpeg",
     "/Awareness/a1.jpg",
