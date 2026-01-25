@@ -97,13 +97,14 @@ function App() {
   const bloodImages = [
     "/Blood/b00.jpg",
     "/Blood/b000.jpg",
-    "/Blood/b2.jpg",
+   
     "/Blood/b3.jpg",
     "/Blood/b4.jpg",
+     "/Blood/b2.jpg",
     "/Blood/b5.jpg",
     "/Blood/b6.jpg",
     "/Blood/b7.jpg",
-    "/Blood/blood.jpeg",
+    "/Blood/blood.jpg.jpeg",
     "/Blood/blood1.jpeg",
     "/Blood/blood2.jpeg",
   ];
