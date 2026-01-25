@@ -97,7 +97,6 @@ function App() {
   const bloodImages = [
     "/Blood/b00.jpg",
     "/Blood/b000.jpg",
-   
     "/Blood/b3.jpg",
     "/Blood/b4.jpg",
      "/Blood/b2.jpg",
