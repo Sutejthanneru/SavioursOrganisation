@@ -494,6 +494,22 @@ What began as a small initiative has, over the past nine years, grown into a mov
               <img src="/rec4.jpeg" alt="Indian Icon Award 2022" />
             </div>
           </div>
+          {/* Card 5 */}
+           <div className="recognition-card">
+            <div className="recog-content">
+              <span className="recog-year">🤝 2026</span>
+              <h3>Viswaguru World Records- Udagi Puraskaralu - 2026</h3>
+              <p>
+                Sai Dheeraj Ponnaganti was honored with the Ugadi Puraskaralu – 2026 
+                award by Viswaguru World Records in recognition of his outstanding achievements and remarkable contributions in his respective field. The award was presented as a token of 
+                appreciation for his dedication, excellence, and inspiring efforts.
+              </p>
+            </div>
+
+            <div className="recog-image recog-image-5">
+              <img src="/rec5.jpeg" alt="Viswaguru World Records- Udagi Puraskaralu - 2026" />
+            </div>
+          </div>
         </div>
         <div className="awards-summary">
   <div className="award-stat">

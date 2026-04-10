@@ -833,7 +833,11 @@
 .recog-image-4 img{
   object-fit: cover;
 }
-
+.recog-image-5 img{
+  width: 350px;
+  height: 215px;
+ object-fit:fill;
+}
 
 .recog-placeholder {
   position: absolute;
