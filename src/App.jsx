@@ -409,6 +409,22 @@ What began as a small initiative has, over the past nine years, grown into a mov
 
         <div className="recognitions-grid">
           {/* Card 1 */}
+                     <div className="recognition-card">
+            <div className="recog-content">
+              <span className="recog-year">🤝 2026</span>
+              <h3>Viswaguru World Records- Udagi Puraskaralu - 2026</h3>
+              <p>
+                Sai Dheeraj Ponnaganti was honored with the Ugadi Puraskaralu – 2026 
+                award by Viswaguru World Records in recognition of his outstanding achievements and remarkable contributions in his respective field. The award was presented as a token of 
+                appreciation for his dedication, excellence, and inspiring efforts.
+              </p>
+            </div>
+
+            <div className="recog-image recog-image-5">
+              <img src="/rec5.jpeg" alt="Viswaguru World Records- Udagi Puraskaralu - 2026" />
+            </div>
+          </div>
+          {/* Card 2 */}
           <div className="recognition-card">
             <div className="recog-content">
               <span className="recog-year">🏆2025 </span>
@@ -432,28 +448,10 @@ What began as a small initiative has, over the past nine years, grown into a mov
             </div>
           </div>
 
+         
+
+
           {/* Card 2 */}
-          <div className="recognition-card">
-            <div className="recog-content">
-              <span className="recog-year">🌟 2022</span>
-              <h3>AP Governor Award & Gold Medal</h3>
-              <p>
-                Saviours Voluntary Organization President Mr. N. Praneeth was
-                honored with the AP Governor Award and a Gold Medal by the
-                Indian Red Cross Society for motivating blood donors and
-                organizing blood donation camps. The award was presented on the
-                occasion of World Blood Donors Day.
-              </p>
-            </div>
-
-            <div className="recog-image">
-             
-                <img src="/rec2.jpeg" alt="AP Governor Award 2022" />
-            
-            </div>
-          </div>
-
-          {/* Card 3 */}
           <div className="recognition-card">
             <div className="recog-content">
               <span className="recog-year">🚀 2025</span>
@@ -476,6 +474,26 @@ What began as a small initiative has, over the past nine years, grown into a mov
            
             </div>
           </div>
+          {/* Card 3 */}
+                    <div className="recognition-card">
+            <div className="recog-content">
+              <span className="recog-year">🌟 2022</span>
+              <h3>AP Governor Award & Gold Medal</h3>
+              <p>
+                Saviours Voluntary Organization President Mr. N. Praneeth was
+                honored with the AP Governor Award and a Gold Medal by the
+                Indian Red Cross Society for motivating blood donors and
+                organizing blood donation camps. The award was presented on the
+                occasion of World Blood Donors Day.
+              </p>
+            </div>
+
+            <div className="recog-image">
+             
+                <img src="/rec2.jpeg" alt="AP Governor Award 2022" />
+            
+            </div>
+          </div>
 
           {/* Card 4 */}
           <div className="recognition-card">
@@ -495,21 +513,7 @@ What began as a small initiative has, over the past nine years, grown into a mov
             </div>
           </div>
           {/* Card 5 */}
-           <div className="recognition-card">
-            <div className="recog-content">
-              <span className="recog-year">🤝 2026</span>
-              <h3>Viswaguru World Records- Udagi Puraskaralu - 2026</h3>
-              <p>
-                Sai Dheeraj Ponnaganti was honored with the Ugadi Puraskaralu – 2026 
-                award by Viswaguru World Records in recognition of his outstanding achievements and remarkable contributions in his respective field. The award was presented as a token of 
-                appreciation for his dedication, excellence, and inspiring efforts.
-              </p>
-            </div>
 
-            <div className="recog-image recog-image-5">
-              <img src="/rec5.jpeg" alt="Viswaguru World Records- Udagi Puraskaralu - 2026" />
-            </div>
-          </div>
         </div>
         <div className="awards-summary">
   <div className="award-stat">
