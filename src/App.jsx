@@ -231,7 +231,128 @@ What began as a small initiative has, over the past nine years, grown into a mov
     
       </section>
 
-      {/* Wings Section */}
+      <section className="recent-activities-section">
+        <h2 className="section-title">Recent Activities</h2>
+        <div className="recent-activities-list">
+          <article className="activity-card">
+            <div className="activity-images">
+              <img
+                src="/recent-activites/mock-court-1.jpeg"
+                alt="Village awareness drive 1"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-2.jpeg"
+                alt="Village awareness drive 2"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-3.jpeg"
+                alt="Village awareness drive 3"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-6.jpeg"
+                alt="Village awareness drive 4"
+                className="activity-image"
+              />
+            </div>
+            <h3>Saviour’s Mock Court Act – 2026</h3>
+            <p>
+             Conducted the Saviour’s Mock Court Act with school children, engaging young minds in an interactive awareness program focused on legal education, justice, 
+             and social responsibility, while promoting confidence, communication skills, and civic understanding.
+            </p>
+          </article>
+          <article className="activity-card">
+            <div className="activity-images">
+              <img
+                src="/recent-activites/womens-day-1.jpeg"
+                alt="Food distribution event 1"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/womens-day-2.jpeg"
+                alt="Food distribution event 2"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/womens-day-3.jpeg"
+                alt="Food distribution event 3"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/womens-day-4.jpeg"
+                alt="Food distribution event 4"
+                className="activity-image"
+              />
+            </div>
+            <h3>Saviour's  Women’s Day Celebrations – 2026</h3>
+            <p>
+            Organized the “Saviours” Women’s Day Celebrations – 2026, bringing together mothers, daughters, and sons through a memorable handprint activity symbolizing love and unity, along with a vibrant food fest that 
+            encouraged togetherness, joy, and community bonding.
+            </p>
+          </article>
+          {/* <article className="activity-card">
+            <div className="activity-images">
+              <img
+                src="/recent-activites/rec-5.jpeg"
+                alt="Blood donation camp 1"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-6.jpeg"
+                alt="Blood donation camp 2"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/womens-day-1.jpeg"
+                alt="Blood donation camp 3"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/womens-day-2.jpeg"
+                alt="Blood donation camp 4"
+                className="activity-image"
+              />
+            </div>
+            <h3>Blood Donation Camp</h3>
+            <p>
+              Organized a successful blood donation drive in Kavali, partnering
+              with local volunteers and donors to support urgent medical needs.
+            </p>
+          </article>
+          <article className="activity-card">
+            <div className="activity-images">
+              <img
+                src="/recent-activites/mock-court-1.jpeg"
+                alt="Medical support camp 1"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-2.jpeg"
+                alt="Medical support camp 2"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-3.jpeg"
+                alt="Medical support camp 3"
+                className="activity-image"
+              />
+              <img
+                src="/recent-activites/mock-court-4.jpeg"
+                alt="Medical support camp 4"
+                className="activity-image"
+              />
+            </div>
+            <h3>Medical Support Camp</h3>
+            <p>
+              Provided free medical screenings and aid to families in need,
+              helping patients access treatment and health resources.
+            </p>
+          </article> */}
+        </div>
+      </section>
+
       {/* Wings Section */}
       <section className="wings-section">
         <h2>Our Wings</h2>
