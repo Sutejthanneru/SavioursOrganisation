@@ -72,6 +72,25 @@ function App() {
     document.title =
       "Saviours Voluntary Organisation | Team Saviours | Social Service NGO";
   }, []);
+
+  useEffect(() => {
+    const revealTargets = document.querySelectorAll(
+      ".hero-section, .about-section, .founder-section, .ourteam-section, .recent-activities-section, .wings-section, .impact-section, .recognitions-section, .wing, .activity-card, .counter, .recognition-card"
+    );
+    const revealObserver = new window.IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+    revealTargets.forEach((target) => revealObserver.observe(target));
+    return () => revealObserver.disconnect();
+  }, []);
   const awarenessImages = [
     "/Awareness/a20.jpeg",
     "/Awareness/a1.jpg",
@@ -292,36 +311,36 @@ What began as a small initiative has, over the past nine years, grown into a mov
             encouraged togetherness, joy, and community bonding.
             </p>
           </article>
-          {/* <article className="activity-card">
+          <article className="activity-card">
             <div className="activity-images">
               <img
-                src="/recent-activites/rec-5.jpeg"
+                src="/recent-activites/rally-1.jpeg"
                 alt="Blood donation camp 1"
                 className="activity-image"
               />
               <img
-                src="/recent-activites/mock-court-6.jpeg"
+                src="/recent-activites/rally-2.jpeg"
                 alt="Blood donation camp 2"
                 className="activity-image"
               />
               <img
-                src="/recent-activites/womens-day-1.jpeg"
+                src="/recent-activites/rally-3.jpeg"
                 alt="Blood donation camp 3"
                 className="activity-image"
               />
               <img
-                src="/recent-activites/womens-day-2.jpeg"
+                src="/recent-activites/rally-4.jpeg"
                 alt="Blood donation camp 4"
                 className="activity-image"
               />
             </div>
-            <h3>Blood Donation Camp</h3>
+            <h3>Cancer Awareness Rally – 2026</h3>
             <p>
-              Organized a successful blood donation drive in Kavali, partnering
-              with local volunteers and donors to support urgent medical needs.
+Conducted a cancer awareness rally in collaboration with community organizations and 
+healthcare partners, engaging the public through an awareness walk to promote early detection, prevention, and support for individuals affected by cancer
             </p>
           </article>
-          <article className="activity-card">
+          {/* <article className="activity-card">
             <div className="activity-images">
               <img
                 src="/recent-activites/mock-court-1.jpeg"

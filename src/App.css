@@ -1,3 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.hero-section,
+.about-section,
+.founder-section,
+.ourteam-section,
+.recent-activities-section,
+.wings-section,
+.impact-section,
+.recognitions-section,
+.wing,
+.activity-card,
+.counter,
+.recognition-card {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.85s ease-out, transform 0.85s ease-out;
+  will-change: opacity, transform;
+}
+
+.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* App Container */
 .app {
   width: 100%;
